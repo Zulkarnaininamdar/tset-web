@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Fitness calculator , bmi calculator , gym , Nandurbar">
+    <meta name="description" content="Fitness calculator of hamza gym Fitness">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/fit_cal.js"></script>
+</head>
+<body>
+    <section class="cal">
+        <div class="head_fc"><h1>BMI Calculator</h1></div>
+        <div class="box1"><div class="h">
+            <!-- <span>Height : </span> -->
+            <input type="number" id="hi" placeholder=" Enter a Heigth in m">
+        </div>
+            <br>
+            <div class="w">  
+            <!-- <span>Weight :</span> -->
+            <input type="number" id="wi" placeholder=" Enter a Weight in kg ">
+        </div>
+            <br>
+            <button class="calculate" onclick="bmi_cal()">Calculate</button>
+            <br>
+            <button class="clear" type="reset" onclick="res()">Reset</button>
+        </div>
+        <table class="bmi_table">
+            <tr>
+                <th>Category</th>
+                <th>BMI range - kg /m <sub> 2</sub></th>
+            </tr>
+            <tr>
+                <td>Severe Thinness</td>
+                <td> < 16</td>
+            </tr>
+            <tr>
+                <td>Modrate Thinness</td>
+                <td> 16 - 17 </td>
+            </tr>
+            <tr>
+                <td>Mild Thinness</td>
+                <td> 17 - 18.5</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td> 18.5 - 25</td>
+            </tr>
+            <tr>
+                <td>Over Weight</td>
+                <td> 25-30</td>
+            </tr>
+            <tr>
+                <td>Obese class 1 </td>
+                <td> 30 - 35</td>
+            </tr>
+            <tr>
+                <td>Obese class 2</td>
+                <td> 35 - 40 </td>
+            </tr>
+        </table>
+    </section>
+    <section class="cal"></section>
+    <section class="cal"></section>
+    <section class="cal"></section>
+</body>
+</html>

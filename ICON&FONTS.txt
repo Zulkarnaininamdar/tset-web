@@ -1,0 +1,19 @@
+icon embeded codes here
+ <ion-icon name="barbell-outline"></ion-icon>
+ <ion-icon name="home-outline"></ion-icon> 
+ <ion-icon name="call-outline"></ion-icon>
+ <ion-icon name="mail-outline"></ion-icon>
+ <ion-icon name="person-outline"></ion-icon> 
+ <ion-icon name="pricetag-outline"></ion-icon>
+ <ion-icon name="location-outline"></ion-icon>
+ <ion-icon name="phone-portrait-outline"></ion-icon>
+ <ion-icon name="calculator-outline"></ion-icon>
+ <ion-icon name="code-working-outline"></ion-icon>
+                <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+
+ 
+imoprts fonts on gogle  here 
+-> @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa&family=Zen+Kaku+Gothic+Antique&display=swap');
+rgb(108, 108, 229)
+rgb(249, 215, 76)
+rgb(249, 123, 139)

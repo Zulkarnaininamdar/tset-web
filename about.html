@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="About , HamzaGymFitness, Zulkarnain_inamdar_Developer">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>About Gym</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <!-- <script src="JS/scrol.js"></script> -->
+</head>
+<body id="about">
+
+    <section class="about_section_btn">
+        <div class="item">
+ <ion-icon name="barbell-outline" class="icon_about"></ion-icon>
+            <span><a href="#ag">About Gym</a></span>
+        </div>
+        <div class="item">
+        <ion-icon name="bug" class="icon_about"></ion-icon>
+        <span><a href="#ad">About Developer</a></span>
+    </div>
+    </section>
+    <section class="about_gym " id="ag" >
+        <!-- first box  -->
+        <div class="box"> 
+            <div class="icon">
+                <ion-icon name="chatbox-ellipses-outline" class="fa"></ion-icon>
+            </div>
+            <div class="contain">
+                <h3>About</h3>
+                <p>The Hamza gym Fitnees center owner is Abdul Gaffar Mansuri . <br>
+                       contact no : 9665121292  
+                </p>
+        </div>
+        </div>
+        <!-- 2nd box -->
+        <div class="box"><div class="icon">
+            <ion-icon name="person-outline" class="fa"></ion-icon> 
+            </div>
+            <div class="contain">
+                <h3>User</h3>
+                <p> There are over 62 members are joined Hamza gym and Fitnees center
+                </p>
+        </div></div>
+        <!-- 3RD box -->
+        <div class="box">
+            <div class="icon">
+ <ion-icon name="location-outline" class="fa"></ion-icon>
+                
+                </div>
+                <div class="contain">
+                    <h3>Locatin</h3>
+                    <p> chirag ali mohalla at malivada road , <br> Nandurbar
+                    </p>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+    <!-- new section is start -->
+    <section class="about_gym " id="ad">
+        <!-- first box  -->
+        <div class="box"> 
+            <div class="icon">
+ <ion-icon name="code-working-outline" class="fa"></ion-icon>
+                
+            </div>
+            <div class="contain" id="main">
+                <h3>About Developer</h3>
+                <p>I am Zulkarnain inamdar , Web developer from India. I have rich experience in web site design and building and customization, also I am good at WordPress and SEO
+                </p>
+        </div>
+        </div>
+        <!-- 2nd box -->
+        <div class="box"><div class="icon">
+            <ion-icon name="school-outline" class="fa"></ion-icon>
+             
+            </div>
+            <div class="contain " id="main2">
+                <h3>Experience</h3>
+                <p> FrontEnd Devloper , Backend Developer , Web design  , UI/Ux desinging
+                    , SEO master and  Responsive website create 
+                </p>
+        </div></div>
+        <div class="box">
+            <div class="icon">
+                <ion-icon name="call-outline" class="fa"></ion-icon>
+                
+                </div>
+                <div class="contain" >
+                    <h3>Contact</h3>
+                    <p> Contact with developer <br> 8421610769
+                    </p>
+            </div>
+        </div>
+    </section>
+    <footer >
+        <p>Copywrite &copy; HamzaGymFitness.com</p>
+    </footer>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+    
+        function reveal(){
+          var reveals = document.querySelectorAll('.reveal');
+    
+          for(var i = 0; i < reveals.length; i++){
+    
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+    
+            if(revealtop < windowheight - revealpoint){
+              reveals[i].classList.add('active');
+            }
+            else{
+              reveals[i].classList.remove('active');
+            }
+          }
+        }
+        </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
